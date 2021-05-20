@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import FirstItem from "./components/FirstItem";
+import NewUser from "./components/NewUser/NewUser";
+import React, { useState } from "react";
+const PROFILE_DATA = [{ key:1,name: "Manjiri", date: new Date(2021, 4, 15) }];
 function App() {
+  const [profileData, profileDataUpdater] = useState(PROFILE_DATA);
+  const clickHandler = () => {
+    console.log("here");
+    // f
+  };
+  const newUserDataHandler = (data) => {console.log(data);
+    // profileDataUpdater([data, ...profileData]);
+    console.log(profileData);
+    profileDataUpdater((prevData) => {
+      // console.log(prevData);
+      return [data, ...prevData];
+    });
+    // f
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2>Let's get started!</h2>
+      {profileData.map((item) => (
+        <FirstItem
+          date={item.date}
+          name={item.name}
+          eventHandler={clickHandler}
+        ></FirstItem>
+      ))}
+
+      <NewUser newUserData={newUserDataHandler} />
     </div>
   );
 }
