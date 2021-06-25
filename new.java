@@ -15,6 +15,7 @@ import java.util.List;
 
 public static boolean writeStreamToFile(InputStream stream, File file) {
 		FileOutputStream out = null;
+	System.out.println("Now the output is redirected!");
 		try {
 			out = new FileOutputStream(file);
 			
