@@ -1,5 +1,6 @@
 function DateFormater(props){
     let a;
+    let b;
     console.log("Ad");
     const month = props.date.toLocaleString("en-us",{month:'long'})
     const date = props.date.toLocaleString("en-us",{day:'2-digit'})
