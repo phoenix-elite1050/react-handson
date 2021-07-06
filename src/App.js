@@ -1,4 +1,4 @@
-import FirstItem from "./components/FirstItem";
+//import FirstItem from "./components/FirstItem";
 import NewUser from "./components/NewUser/NewUser";
 import React, { useState } from "react";
 const PROFILE_DATA = [{ key:1,name: "Manjiri", date: new Date(2021, 4, 15) }];
