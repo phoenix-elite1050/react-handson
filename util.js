@@ -1,6 +1,6 @@
 function DateFormater(props){
     let b;
-   
+   let f;
     
     let ab;
     console.log("Ad");
