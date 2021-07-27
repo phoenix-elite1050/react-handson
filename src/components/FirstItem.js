@@ -7,7 +7,11 @@ function FirstItem(props) {
   const [name, setName]=useState(n);
   
   const clickHandler = ()=>{
-    // console.log("here");
+     console.log("here");
+     console.log("here");
+     console.log("here");
+     console.log("here");
+     console.log("here");
     setName("Div");
   }
 
