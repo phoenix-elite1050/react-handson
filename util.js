@@ -4,7 +4,6 @@ function DateFormater(props){
     
     let qw2;
 
-    let qw1;
     let ab;
     console.log("Ad");
     const month = props.date.toLocaleString("en-us",{month:'long'})
