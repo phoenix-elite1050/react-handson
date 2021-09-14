@@ -1,6 +1,5 @@
 function DateFormater(props){
     let b;
-   let f;
     let qw;
     
     let qw2;
