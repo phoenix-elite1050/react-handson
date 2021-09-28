@@ -18,7 +18,7 @@ function DateFormater(props){
     console.log("Ad");
     console.log("Ad");
     console.log("Ad");
-    console.log("Ad");
+    
     console.log("Ad");
     console.log("Ad");
     console.log("Ad");
