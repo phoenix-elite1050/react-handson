@@ -21,3 +21,7 @@ console.log(1);
 console.log(1);
 console.log(1);
 }
+
+function s(){
+console.log(1);
+}
