@@ -35,6 +35,7 @@ public class ModelClone extends ModelAuxmodData{
 	}
 
 	public String getFirstLine() {
+console.log(firstLine);
 		return firstLine;
 	}
 
