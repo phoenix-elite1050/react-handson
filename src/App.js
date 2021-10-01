@@ -97,7 +97,6 @@ console.log(profileData);
 console.log(profileData);
 console.log(profileData);
 console.log(profileData);
-console.log(profileData);
     // f
   };
   return (
