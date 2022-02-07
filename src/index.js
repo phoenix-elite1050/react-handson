@@ -21,4 +21,5 @@ function abv(){
 
 function s(){
 console.log(1);
+console.log(1);
 }
