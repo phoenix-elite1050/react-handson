@@ -18,6 +18,6 @@ reportWebVitals();
 function abc(){
   console.log(1)
 }
-function abc(){
-  
+function abc2(){
+  console.log("2")
 }
