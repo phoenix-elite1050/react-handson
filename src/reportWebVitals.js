@@ -12,8 +12,10 @@ const reportWebVitals = onPerfEntry => {
 
 function abc2(){
   console.log("2")
+  console.log("2")
+  console.log("2")
 }
 export default reportWebVitals;
 function asdasd(){
-  console.log("2")
+  console.log("233")
 }
