@@ -16,6 +16,5 @@ function abc2(){
 }
 export default reportWebVitals;
 function asdasd(){
-  console.log("123")
   console.log("2")
 }
